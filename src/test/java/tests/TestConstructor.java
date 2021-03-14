@@ -34,6 +34,7 @@ public class TestConstructor extends TestBase {
                 ap.getOrderPizzaHelper().configAndOrderPizza("2", "2");
         ap.getNavigationHelper().clickElement(By.cssSelector("a.cart"));
         ap.getNavigationHelper().resultAssertEquals(pizzaByOrder, pizzaByCustom);
+        System.out.println("123");
 
     }
 
