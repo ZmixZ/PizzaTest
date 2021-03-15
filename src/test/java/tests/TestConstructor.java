@@ -35,6 +35,7 @@ public class TestConstructor extends TestBase {
         ap.getNavigationHelper().clickElement(By.cssSelector("a.cart"));
         ap.getNavigationHelper().resultAssertEquals(pizzaByOrder, pizzaByCustom);
         System.out.println("123");
+        System.out.println("new branch inform");
 
     }
 
